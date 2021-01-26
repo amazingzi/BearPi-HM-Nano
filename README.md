@@ -123,6 +123,7 @@ gcc version 7.3.0 (GCC)
 成功
 tar -vxf ninja.1.9.0.tar -C~/
 
+****************************
 https://gitee.com/bearpi/bearpi-hm_nano/blob/master/applications/BearPi/BearPi-HM_Nano/docs/quick-start/BearPi-HM_Nano%E5%BC%80%E5%8F%91%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83.md#
 
 
