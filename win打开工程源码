@@ -1,0 +1,40 @@
+映射工程源码
+=====================
+在linux设置共享文件夹
+1、安装samba
+  sudo apt-get install samba
+2、配置samba
+  sudo vim /etc/samba/smb.conf
+ 添加以下内容
+  [HarmonyOS Code]
+  path = /home/q123/code
+  available = yes
+  valid users =q123
+  read only = no
+  browsable = yes
+  public = yes
+  writable = yes
+  
+  设置用户名和密码
+  sudo smbpasswd -a 123
+
+  重启samba
+  sudo /etc/init.d/smbd restart
+
+**********************
+
+导入映射工程源码
+=====================
+
+映射网络驱动器
+地址为：
+\\192.168.0.245\HarmonyOS Code
+
+
+
+
+
+
+
+
+
